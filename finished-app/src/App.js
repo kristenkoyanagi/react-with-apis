@@ -7,7 +7,7 @@ import Feed from './components/Feed';
 function App() {
   return (
     <div className="App">
-      <Header title="Flight Feed"></Header>
+      <Header title="Airport Info"></Header>
       <Feed></Feed>
       <Footer title="2020"></Footer>
     </div>
