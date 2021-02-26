@@ -13,7 +13,7 @@ function Feed() {
             const reqOptions = {
                 method: 'GET',
                 headers: {
-                    "x-rapidapi-key": "ef01661576mshbd8aa0be33c900ap1922b9jsn5fd78537392b",
+                    "x-rapidapi-key": "API_KEY",
                     "x-rapidapi-host": "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com",
                     "useQueryString": true
                 }
@@ -32,7 +32,7 @@ function Feed() {
         <div className="feed">
            <form onSubmit={handleSubmit}>
                 <label htmlFor="queryInput">Place:</label>
-                <input id="queryInput" value={query} onChange={e => setQuery(e.target.value)}/>
+                <input id="queryInput" value={query} onChange={e => setQuery(e.target.value)} required/>
                 <button className="search">Submit</button>
            </form>
            { showPlaces ? <Places places={places}></Places> : <></>}
