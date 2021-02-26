@@ -3,9 +3,9 @@ import './Places.css';
 
 function Places(props) { 
 
-    function placeTable() {
-        if(props.showPlaces) {
-            return (<table>
+    return(
+        <div className="places">
+            <table>
                 <tr>
                     <th>PlaceId</th>
                     <th>PlaceName</th>
@@ -24,15 +24,7 @@ function Places(props) {
                         <th>{place.CountryName}</th>
                     </tr>)
                 })}
-            </table>)
-        } else {
-            return (<></>)
-        }
-    }
-
-    return(
-        <div className="places">
-            {placeTable()}
+            </table>
          </div>
     )
 }
