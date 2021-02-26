@@ -68,3 +68,13 @@ cd starter-app #or finished-app
 yarn install  #or npm install
 yarn start #or npm start
 ```
+
+Add in your own API key in the `Feed.js` line 16 of the finished-app:
+[Skyscanner API link](https://rapidapi.com/skyscanner/api/skyscanner-flight-search) 
+
+## Free React Resources
+Check some of these out if you want to learn more about React:
+- [React Tutorial (docs)](https://reactjs.org/tutorial/tutorial.html)
+- [The Beginner's Guide to React (egghead.io videos)](https://egghead.io/courses/the-beginner-s-guide-to-react)
+- [Interactive React Challenges (freecodecamp)](https://www.freecodecamp.org/learn/front-end-libraries/react/)
+- [Full React Course 2020 (YouTube)](https://www.youtube.com/watch?v=4UZrsTqkcW4)
