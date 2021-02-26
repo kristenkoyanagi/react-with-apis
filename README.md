@@ -1,5 +1,5 @@
 # react-with-apis
-React Demo with APIs
+React Demo with the Skyscanner API
 
 ## Setup
 
@@ -34,7 +34,7 @@ nvm use 12
 node --version
 ```
 
-### Run Create React App
+### If you want to start from scratch
 
 Run the [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html)
 
