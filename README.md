@@ -62,7 +62,7 @@ If you open [http://localhost:3000](http://localhost:3000), you should see the s
 This repo contains starter code (with some CSS formatting and the file structure) and the finished code from the demo. Take a peek or try running it locally by running a few commands below. 
 
 ```
-git clone https://github.com/kristenkoyanagi/intro-to-react
+git clone https://github.com/kristenkoyanagi/react-with-apis
 cd react-with-apis
 cd starter-app #or finished-app
 yarn install  #or npm install
