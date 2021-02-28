@@ -1,7 +1,7 @@
 # react-with-apis
 React Demo with the Skyscanner API
 
-## Setup
+## Setup for Demo
 
 ### Install Nvm
 
@@ -29,12 +29,27 @@ If you have issues or need more info, check out the [github repo](https://github
 We need to install the latest version of node and make sure we use it.
 
 ```
-nvm install 12
-nvm use 12
+nvm install 14
+nvm use 14
 node --version
 ```
 
-### If you want to start from scratch
+## React Demo
+
+This repo contains starter code (with some CSS formatting and the file structure) and the finished code from the demo. Take a peek or try running it locally by running a few commands below. 
+
+```
+git clone https://github.com/kristenkoyanagi/react-with-apis
+cd react-with-apis
+cd starter-app #or finished-app
+yarn install  #or npm install
+yarn start #or npm start
+```
+
+Add in your own API key in the `Feed.js` line 16 of the finished-app:
+[Skyscanner API link](https://rapidapi.com/skyscanner/api/skyscanner-flight-search) 
+
+## If you want to build an app from scratch
 
 Run the [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html)
 
@@ -53,24 +68,10 @@ npm start
 [npm](https://www.npmjs.com/) and [yarn](https://yarnpkg.com/) are separate node package managers that helps you install dependencies, test, run, and build your app. You can use either one as long as you stick with one.
 
 
-### Check your start app
+### Check your starter app
 
 If you open [http://localhost:3000](http://localhost:3000), you should see the starter app running from the `create-react-app` command.
 
-## React Demo
-
-This repo contains starter code (with some CSS formatting and the file structure) and the finished code from the demo. Take a peek or try running it locally by running a few commands below. 
-
-```
-git clone https://github.com/kristenkoyanagi/react-with-apis
-cd react-with-apis
-cd starter-app #or finished-app
-yarn install  #or npm install
-yarn start #or npm start
-```
-
-Add in your own API key in the `Feed.js` line 16 of the finished-app:
-[Skyscanner API link](https://rapidapi.com/skyscanner/api/skyscanner-flight-search) 
 
 ## Free React Resources
 Check some of these out if you want to learn more about React:
