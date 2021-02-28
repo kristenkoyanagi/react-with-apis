@@ -31,7 +31,7 @@ function Feed() {
     return(
         <div className="feed">
            <form onSubmit={handleSubmit}>
-                <label htmlFor="queryInput">Skyscanner Airports:</label>
+                <label htmlFor="queryInput">State or Country:</label>
                 <input id="queryInput" value={query} onChange={e => setQuery(e.target.value)} required/>
                 <button className="search">Submit</button>
            </form>
