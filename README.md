@@ -46,8 +46,12 @@ yarn install  #or npm install
 yarn start #or npm start
 ```
 
-Add in your own API key in the `Feed.js` line 16 of the finished-app:
-[Skyscanner API link](https://rapidapi.com/skyscanner/api/skyscanner-flight-search) 
+### Add your API key
+1. Change `.env.example` to `.env`
+2. Sign up for a free API Key at [Skyscanner API link](https://rapidapi.com/skyscanner/api/skyscanner-flight-search) 
+3. Make sure your API key enabled
+4. Add your API key to `.env` in the space provided
+5. Restart your app
 
 ## If you want to build an app from scratch
 
