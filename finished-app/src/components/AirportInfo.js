@@ -40,4 +40,4 @@ function AirportInfo() {
     )
 }
 
-export default Feed;
+export default AirportInfo;
