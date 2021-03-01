@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './Feed.css';
+import './AirportInfo.css';
 import Places from './Places';
 
-function Feed() { 
+function AirportInfo() { 
     const [places,setPlaces] = useState([])
     const [query,setQuery] = useState("")
     const [showPlaces,setShowPlaces] = useState(false)
@@ -29,7 +29,7 @@ function Feed() {
     }
 
     return(
-        <div className="feed">
+        <div className="airportinfo">
            <form onSubmit={handleSubmit}>
                 <label htmlFor="queryInput">State or Country:</label>
                 <input id="queryInput" value={query} onChange={e => setQuery(e.target.value)} required/>
